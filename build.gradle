@@ -38,4 +38,6 @@ dependencies {
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile('org.springframework.boot:spring-boot-starter-mustache')
     compile('org.springframework.boot:spring-boot-starter-oauth2-client') //클라이언트 입장에서 소셜 기능 구현 시 필요
+    compile('org.springframework.session:spring-session-jdbc')
+    compile("org.springframework.security:spring-security-test")
 }
